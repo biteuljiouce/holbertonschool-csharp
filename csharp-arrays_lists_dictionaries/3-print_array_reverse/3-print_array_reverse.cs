@@ -60,12 +60,12 @@ class Array
     {
         if (array != null)
         {
-            char end = ' ';
             for (int i = array.Length - 1; i >= 0; i--)
             {
                 if (i == 0)
-                    end = '\0';
-                Console.Write($"{array[i]}{end}");
+                    Console.Write($"{array[i]}");
+                else
+                    Console.Write($"{array[i]} ");
             }
         }
         Console.WriteLine();
