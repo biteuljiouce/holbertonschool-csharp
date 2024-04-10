@@ -1,0 +1,11 @@
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.csprojAssemblyReference.cache
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.csproj.CoreCompileInputs.cache
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.AssemblyInfoInputs.cache
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.AssemblyInfo.cs
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/netcoreapp2.1/12-fizzbuzz.deps.json
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/netcoreapp2.1/12-fizzbuzz.runtimeconfig.json
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/netcoreapp2.1/12-fizzbuzz.runtimeconfig.dev.json
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/netcoreapp2.1/12-fizzbuzz.dll
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/12-fizzbuzz/bin/Debug/netcoreapp2.1/12-fizzbuzz.pdb
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.dll
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.pdb
