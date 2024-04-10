@@ -1,0 +1,11 @@
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/bin/Debug/netcoreapp2.1/4-print_hexa.deps.json
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/bin/Debug/netcoreapp2.1/4-print_hexa.runtimeconfig.json
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/bin/Debug/netcoreapp2.1/4-print_hexa.runtimeconfig.dev.json
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/bin/Debug/netcoreapp2.1/4-print_hexa.dll
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/bin/Debug/netcoreapp2.1/4-print_hexa.pdb
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/netcoreapp2.1/4-print_hexa.csprojAssemblyReference.cache
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/netcoreapp2.1/4-print_hexa.csproj.CoreCompileInputs.cache
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/netcoreapp2.1/4-print_hexa.AssemblyInfoInputs.cache
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/netcoreapp2.1/4-print_hexa.AssemblyInfo.cs
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/netcoreapp2.1/4-print_hexa.dll
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/netcoreapp2.1/4-print_hexa.pdb
