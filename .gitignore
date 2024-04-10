@@ -1,2 +1,4 @@
 **/bin/
 **/*.sln
+.editorconfig
+**/*.code-workspace
