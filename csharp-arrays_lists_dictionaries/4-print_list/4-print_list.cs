@@ -13,6 +13,7 @@ class List
         }
         else if (size == 0)
         {
+            Console.WriteLine("");
             // Initializes a new instance of the List < T > class that is empty and has the default initial capacity.
             return new List<int>();
         }
