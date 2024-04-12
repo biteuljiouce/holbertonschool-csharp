@@ -16,5 +16,12 @@ class Program
 
         foreach (int i in myList)
             Console.WriteLine(i);
+
+        Console.WriteLine("-");
+        List.DeleteAt(myList, 10);
+        Console.WriteLine("-");
+        List.DeleteAt(myList, 0);
+        Console.WriteLine("-");
+        List.DeleteAt(myList, -11);
     }
 }
