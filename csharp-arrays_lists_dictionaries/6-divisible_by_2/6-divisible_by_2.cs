@@ -9,7 +9,7 @@ class List
     {
         List<bool> isMultipleList = new List<bool>(myList.Count);
         // finds all multiples of 2 in a list.
-        myList.ForEach(n => { Console.Write(n); isMultipleList.Add((n % 2 == 0) ? true : false); });
+        myList.ForEach(n => { isMultipleList.Add((n % 2 == 0) ? true : false); });
         // return it
         return isMultipleList;
     }
