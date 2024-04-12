@@ -11,6 +11,6 @@ class Dictionary
         foreach (var item in myDict)
             sortedKeys.Add(item.Key);
         sortedKeys.Sort();
-        sortedKeys.ForEach((string str) => Console.WriteLine(str));
+        sortedKeys.ForEach((string str) => Console.WriteLine($"{str}: {myDict[str]}"));
     }
 }
