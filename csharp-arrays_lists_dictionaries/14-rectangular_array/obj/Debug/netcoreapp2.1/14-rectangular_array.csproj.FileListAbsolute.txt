@@ -1,0 +1,11 @@
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.csprojAssemblyReference.cache
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.csproj.CoreCompileInputs.cache
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.AssemblyInfoInputs.cache
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.AssemblyInfo.cs
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/netcoreapp2.1/14-rectangular_array.deps.json
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/netcoreapp2.1/14-rectangular_array.runtimeconfig.json
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/netcoreapp2.1/14-rectangular_array.runtimeconfig.dev.json
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/netcoreapp2.1/14-rectangular_array.dll
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/netcoreapp2.1/14-rectangular_array.pdb
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.dll
+/c/Users/cedri/Documents/HOLBERTON 2024/REPO/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.pdb
