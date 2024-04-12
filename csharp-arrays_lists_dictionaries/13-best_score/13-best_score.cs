@@ -7,24 +7,15 @@ class Dictionary
     // returns the key with the biggest integer value in a given dictionary.
     public static string BestScore(Dictionary<string, int> myList)
     {
-        int max = -1;
+        KeyValuePair<string, int> pair = new KeyValuePair<string, int>("", -1);
         foreach (KeyValuePair<string, int> item in myList)
         {
-            if (item.Value > max)
+            if (item.Value > pair.Value)
             {
-                max = item.Value;
+                pair = item;
             }
         }
-        return (max == -1) ? "None" : $"{max}";
+        return (pair.Value == -1) ? "None" : $"{pair.Key}";
     }
 
-    // prints a dictionary by ordered keys.
-    public static void PrintSorted(Dictionary<string, string> myDict)
-    {
-        List<string> sortedKeys = new List<string>();
-        foreach (var item in myDict)
-            sortedKeys.Add(item.Key);
-        sortedKeys.Sort();
-        sortedKeys.ForEach((string str) => Console.WriteLine(str));
-    }
 }
