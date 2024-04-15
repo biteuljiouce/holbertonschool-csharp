@@ -8,18 +8,22 @@ class List
     {
         //myList.ForEach(item => Console.WriteLine(item));
         //Console.WriteLine();
-        List<int> noDouble = new List<int>();
-        int sum = myList[0];
-        noDouble.Add(myList[0]);
-        foreach (int nb in myList)
+        int sum = 0;
+        if (myList.Count > 0)
         {
-            if (!noDouble.Contains(nb))
+            sum = myList[0];
+            List<int> noDouble = new List<int>();
+            noDouble.Add(myList[0]);
+            foreach (int nb in myList)
             {
-                noDouble.Add(nb);
-                sum += nb;
+                if (!noDouble.Contains(nb))
+                {
+                    noDouble.Add(nb);
+                    sum += nb;
+                }
             }
+            //noDouble.ForEach(item => Console.WriteLine(item));
         }
-        //noDouble.ForEach(item => Console.WriteLine(item));
         return sum;
     }
 }
