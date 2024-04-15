@@ -8,12 +8,14 @@ class LList
     {
         LinkedListNode<int> node = new LinkedListNode<int>(n);
         LinkedListNode<int> current = myLList.First;
-        while (current != null && current.Value < n)
+        while (current.Next != null && current.Value < n)
             current = current.Next;
-        if (current == null)
-            return node;
-        else
+        if (current.Value >= n)
             myLList.AddBefore(current, node);
+        else
+            myLList.AddAfter(current, node);
+
         return node;
+
     }
 }
