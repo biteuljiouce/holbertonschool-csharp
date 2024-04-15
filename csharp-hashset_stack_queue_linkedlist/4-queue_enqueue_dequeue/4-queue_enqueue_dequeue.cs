@@ -14,7 +14,7 @@ class MyQueue
     Print if aQueue contains a given item search
         Format: Queue contains <search>: <True / False>
     If aQueue contains the given item search, remove all items up to and including search; otherwise, leave aQueue as is
-        You can use .Dequeue() only once
+        You can use .D/equeue() only once
     Return aQueue
     */
     public static Queue<string> Info(Queue<string> aQueue, string newItem, string search)
