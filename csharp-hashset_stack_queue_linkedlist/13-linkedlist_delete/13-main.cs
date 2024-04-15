@@ -27,6 +27,10 @@ class Program
         Console.WriteLine("-------------------");
         LList.Delete(myLList, 5);
 
+        LList.Delete(myLList, -1);
+        LList.Delete(myLList, 666);
+
+
         current = myLList.First;
         while (current != null)
         {
