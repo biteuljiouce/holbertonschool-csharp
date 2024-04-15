@@ -17,6 +17,11 @@ class LList
             index++;
             node = node.Next;
         }
+        if (node == null)
+        {
+            // didn't find the value
+            return 0;
+        }
         return index;
     }
 }

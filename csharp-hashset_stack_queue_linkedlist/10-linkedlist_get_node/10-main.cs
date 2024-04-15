@@ -15,7 +15,13 @@ class Program
         myLList.AddLast(66);
         myLList.AddLast(37);
         myLList.AddLast(-8);
-
         Console.WriteLine(LList.GetNode(myLList, 5));
+
+        Console.WriteLine(LList.GetNode(myLList, 21));
+
+        LinkedList<int> myLList2 = new LinkedList<int>();
+
+        Console.WriteLine(LList.GetNode(myLList2, 0));
+        Console.WriteLine(LList.GetNode(myLList2, 5));
     }
 }
