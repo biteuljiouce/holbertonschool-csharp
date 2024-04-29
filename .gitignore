@@ -1,5 +1,5 @@
-**/bin/
-**/obj/
-**/*.sln
+bin/
+obj/
+*.sln
 .editorconfig
-**/*.code-workspace
+*.code-workspace
