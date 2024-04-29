@@ -30,6 +30,12 @@ class List
         catch (ArgumentOutOfRangeException e)
         {
         }
+        catch (NullReferenceException e)
+        {
+        }
+        finally
+        {
+        }
         return count;
     }
 }
