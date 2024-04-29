@@ -11,10 +11,6 @@ class Int
         {
             result = a / b;
         }
-        // catch (DivideByZeroException ex)
-        // {
-        //     Console.WriteLine("Cannot divide by zero");
-        // }
         catch (Exception ex)
         {
             // Console.WriteLine(ex.ToString());

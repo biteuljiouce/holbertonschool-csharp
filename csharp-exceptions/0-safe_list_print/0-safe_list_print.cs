@@ -17,7 +17,7 @@ class List
         }
         catch (Exception)
         {
-
+            // Don't catch an exception unless you can handle it and leave the application in a known state. If you catch System.Exception, rethrow it using the throw keyword at the end of the catch block.
         }
         return i;
     }
