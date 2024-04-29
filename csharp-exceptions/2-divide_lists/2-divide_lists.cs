@@ -11,22 +11,20 @@ class List
         List<int> resultList = new List<int>(listLength);
         for (int i = 0; i < listLength; i++)
         {
-            division = 0;
             try
             {
                 division = list1[i] / list2[i];
+                resultList.Add(division);
             }
             catch (DivideByZeroException ex)
             {
-                Console.WriteLine("Cannot divide by zero");
-            }
-            catch (System.ArgumentOutOfRangeException ex)
-            {
-                Console.WriteLine("Out of range");
-            }
-            finally
-            {
+                Console.WriteLine("Cannot divide by zero", ex.Message);
+                division = 0;
                 resultList.Add(division);
+            }
+            catch (ArgumentOutOfRangeException ex)
+            {
+                Console.WriteLine("Out of range", ex.Message);
             }
         }
         return resultList;
