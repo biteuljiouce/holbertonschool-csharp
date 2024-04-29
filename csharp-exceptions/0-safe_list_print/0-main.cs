@@ -7,9 +7,8 @@ class Program
     {
         List<int> myList = new List<int>() { 1, 2, 3, 4, 5 };
         int count;
-        myList = null;
 
-        count = List.SafePrint(myList, myList.Count);
+        count = List.SafePrint(null, myList.Count);
         Console.WriteLine("Number of integers printed: " + count);
         Console.WriteLine();
 

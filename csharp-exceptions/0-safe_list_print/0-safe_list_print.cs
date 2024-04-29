@@ -6,37 +6,19 @@ class List
     // prints n elements of a list.
     public static int SafePrint(List<int> myList, int n)
     {
-        int count = 0;
-        /*
-        if (n > myList.Count)
-        {
-            throw new ArgumentException("Error : n is bigger than list length.");
-        }
-        if (myList == null)
-        {
-            throw new ArgumentException("Error : myList cannot be null.");
-        }*/
+        int i = 0;
         try
         {
-            for (int i = 0; i < n; i++)
+            while (i < n)
             {
                 Console.WriteLine(myList[i]);
-                count = i + 1;
+                i++;
             }
         }
-        catch (IndexOutOfRangeException e)
+        catch (Exception)
         {
+
         }
-        catch (ArgumentOutOfRangeException e)
-        {
-        }
-        catch (NullReferenceException e)
-        {
-        }
-        finally
-        {
-        }
-        return count;
+        return i;
     }
 }
-
