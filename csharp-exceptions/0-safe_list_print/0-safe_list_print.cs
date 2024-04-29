@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-git
-
 
 class List
 {
@@ -9,6 +7,7 @@ class List
     public static int SafePrint(List<int> myList, int n)
     {
         int count = 0;
+        /*
         if (n > myList.Count)
         {
             throw new ArgumentException("Error : n is bigger than list length.");
@@ -16,7 +15,7 @@ class List
         if (myList == null)
         {
             throw new ArgumentException("Error : myList cannot be null.");
-        }
+        }*/
         try
         {
             for (int i = 0; i < n; i++)
@@ -25,9 +24,11 @@ class List
                 count = i + 1;
             }
         }
-        catch (Exception e)
+        catch (IndexOutOfRangeException e)
         {
-            Console.WriteLine($"{e.Message}");
+        }
+        catch (ArgumentOutOfRangeException e)
+        {
         }
         return count;
     }
