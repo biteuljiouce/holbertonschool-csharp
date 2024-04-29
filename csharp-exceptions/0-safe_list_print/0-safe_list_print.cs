@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+git
 
 
 class List
@@ -16,10 +17,17 @@ class List
         {
             throw new ArgumentException("Error : myList cannot be null.");
         }
-        for (int i = 0; i < n; i++)
+        try
         {
-            Console.WriteLine(myList[i]);
-            count = i + 1;
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine(myList[i]);
+                count = i + 1;
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"{e.Message}");
         }
         return count;
     }
