@@ -11,7 +11,7 @@ namespace Enemies
         private int health;
 
         // name of a zombie.
-        private string name;
+        private string name = "(No name)";
 
         /// <summary>
         /// name of a zombie.
@@ -28,7 +28,6 @@ namespace Enemies
         public Zombie()
         {
             health = 0;
-            name = "(No name)";
         }
 
         /// <summary>
@@ -44,7 +43,6 @@ namespace Enemies
                 throw new ArgumentException("Health must be greater than or equal to 0");
             }
             this.health = health;
-            name = "(No name)";
 
         }
 
