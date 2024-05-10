@@ -32,6 +32,8 @@ namespace MyMath.Tests
         [TestCase("1, 15, -20", 15)]
         [TestCase("15, 15, 15", 15)]
         [TestCase("-15, -5, -150", -5)]
+        [TestCase("0, 0, 0, 0", 0)]
+        [TestCase("1, 0, 0, 0", 1)]
         public void ManyMaxTests(string listAsString, int good)
         {
             // Arrange
@@ -47,6 +49,7 @@ namespace MyMath.Tests
         /// <summary>
         /// test empty list.
         /// </summary>
+        [Test]
         public void Empty_list_returns_0()
         {
             // Arrange
