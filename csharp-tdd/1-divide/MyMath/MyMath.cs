@@ -29,9 +29,9 @@ namespace MyMath
                         result[i, j] = matrix[i, j] / num;
                     }
             }
-            catch ()
+            catch (DivideByZeroException e)
             {
-                Console.WriteLine("Num cannot be 0");
+                Console.WriteLine("Num cannot be 0", e);
                 return null;
             }
             return result;
