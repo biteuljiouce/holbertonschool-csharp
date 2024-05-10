@@ -9,19 +9,10 @@ namespace MyMath
     public class Operations
     {
         /// <summary>
-        /// Add 2 numbers
-        /// </summary>
-        /// <returns>The sum of two integers</returns>
-        public static int Add(int a, int b)
-        {
-            return a + b;
-        }
-
-        /// <summary>
         /// Divides a matrix by an int.
         /// </summary>
-        /// <param name="matrix"></param>
-        /// <param name="num"></param>
+        /// <param name="matrix">matrix of integer</param>
+        /// <param name="num">divider as integer</param>
         /// <returns>divided matrix</returns>
         public static int[,] Divide(int[,] matrix, int num)
         {
@@ -38,9 +29,9 @@ namespace MyMath
                         result[i, j] = matrix[i, j] / num;
                     }
             }
-            catch (DivideByZeroException e)
+            catch ()
             {
-                Console.WriteLine("Num cannot be 0", e);
+                Console.WriteLine("Num cannot be 0");
                 return null;
             }
             return result;
