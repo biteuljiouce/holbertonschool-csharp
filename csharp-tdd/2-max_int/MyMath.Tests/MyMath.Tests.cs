@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace MyMath.Tests
 {
@@ -22,12 +23,21 @@ namespace MyMath.Tests
         /// <summary>
         /// test
         /// </summary>
-        [Test]
-        public void Max()
+        /// <remarks>
+        /// Puisque on ne peut avoir que des types contant dans les TestCase,
+        /// on ne peut pas avoir de list d'entier, par exemple.
+        /// Du coup, petite astuce : on y met une string qu'on transforme ensuite en list  
+        /// </remarks>
+        [TestCase("1, 2, 3", 3)]
+        [TestCase("1, 15, -20", 15)]
+        [TestCase("15, 15, 15", 15)]
+        [TestCase("-15, -5, -150", -5)]
+        public void ManyMaxTests(string listAsString, int good)
         {
             // Arrange
-            List<int> list = new List<int> { 1, 2, 3 };
-            int good = 3;
+            var list = listAsString.Split(',')
+                         .Select(int.Parse)
+                         .ToList();
             // Act
             int result = Operations.Max(list);
             // Assert
@@ -35,33 +45,17 @@ namespace MyMath.Tests
         }
 
         /// <summary>
-        /// test
+        /// test empty list.
         /// </summary>
-        [Test]
-        public void Max2()
+        public void Empty_list_returns_0()
         {
             // Arrange
-            List<int> list = new List<int> { 1, 15, -20 };
-            int good = 15;
-            // Act
-            int result = Operations.Max(list);
-            // Assert
-            Assert.AreEqual(good, result);
-        }
-        /// <summary>
-        /// test
-        /// </summary>
-        [Test]
-        public void list_is_empty_returns_0()
-        {
-            // Arrange
-            List<int> list = new List<int> { };
+            List<int> list = new List<int>();
             int good = 0;
             // Act
             int result = Operations.Max(list);
             // Assert
             Assert.AreEqual(good, result);
         }
-
     }
 }
