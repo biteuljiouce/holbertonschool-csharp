@@ -1,11 +1,4 @@
 using NUnit.Framework;
-using MyMath;
-using System;
-
-/// <summary>
-/// Exercice about Unit testing and TDD 
-/// </summary>
-/// <see cref="https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-nunit"/>>
 
 namespace MyMath.Tests
 {
@@ -13,6 +6,7 @@ namespace MyMath.Tests
     /// <summary>
     ///  The [TestFixture] attribute denotes a class that contains unit tests.
     /// </summary> 
+    /// <see cref="https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-nunit"/>>
     [TestFixture]
     public class OperationsTests
     {
