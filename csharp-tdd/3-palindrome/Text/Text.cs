@@ -9,7 +9,6 @@ namespace Text
         public static bool IsPalindrome(string s)
         {
             s = string.Join("", s.Split(new char[] { ' ', '.', ':', ',', ';', '!', '?', })).ToLower();
-            Console.WriteLine(s);
             char[] revArray = s.ToCharArray();
             Array.Reverse(revArray);
             string reversed = new string(revArray);
