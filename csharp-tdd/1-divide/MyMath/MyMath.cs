@@ -40,7 +40,7 @@ namespace MyMath
             }
             catch (DivideByZeroException e)
             {
-                Console.WriteLine("Num cannot be 0");
+                Console.WriteLine("Num cannot be 0", e);
                 return null;
             }
             return result;
