@@ -72,7 +72,7 @@ namespace MyMath.Tests
             // Act
             int[,] result = Operations.Divide(a, b);
             // Assert
-            Assert.AreEqual(null, result);
+            Assert.IsNull(result);
         }
 
         /// <summary>
@@ -87,7 +87,7 @@ namespace MyMath.Tests
             // Act
             int[,] result = Operations.Divide(a, b);
             // Assert
-            Assert.AreEqual(null, result);
+            Assert.IsNull(result);
         }
     }
 }
