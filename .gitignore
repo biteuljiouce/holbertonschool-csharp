@@ -3,3 +3,4 @@ obj/
 *.sln
 .editorconfig
 *.code-workspace
+.vscode
