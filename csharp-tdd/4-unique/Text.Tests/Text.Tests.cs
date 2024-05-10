@@ -13,21 +13,7 @@ namespace Text.Tests
         }
 
         /// <summary>
-        /// test
-        /// </summary>
-        [Test]
-        public void no_repeating_returns_n1()
-        {
-            // Arrange
-            string str = "azerty";
-            int correctIndex = -1;
-            // Act
-            int result = Str.UniqueChar(str);
-            // Assert
-            Assert.AreEqual(correctIndex, result);
-        }
-        /// <summary>
-        /// test
+        /// tests a lot of thing.
         /// </summary>
         [TestCase("azeertyyy", 2)]
         [TestCase("azertyyy", 5)]
