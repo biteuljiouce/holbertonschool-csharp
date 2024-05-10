@@ -16,6 +16,9 @@ namespace MyMath.Tests
     [TestFixture]
     public class OperationsTests
     {
+        /// <summary>
+        /// does nothing.
+        /// </summary>
         [SetUp]
         public void Setup()
         {
@@ -34,6 +37,10 @@ namespace MyMath.Tests
             // Assert
             Assert.AreEqual(2, result);
         }
+
+        /// <summary>
+        /// test
+        /// </summary>
         [Test]
         public void Add_2_3_Equal_5()
         {
@@ -44,6 +51,10 @@ namespace MyMath.Tests
             // Assert
             Assert.AreEqual(5, result);
         }
+
+        /// <summary>
+        /// test
+        /// </summary>
         [Test]
         public void Add_3_2_Equal_5()
         {
@@ -54,6 +65,10 @@ namespace MyMath.Tests
             // Assert
             Assert.AreEqual(5, result);
         }
+
+        /// <summary>
+        /// test
+        /// </summary>
         [Test]
         public void Add_3_n2_Equal_1()
         {
@@ -64,6 +79,10 @@ namespace MyMath.Tests
             // Assert
             Assert.AreEqual(1, result);
         }
+
+        /// <summary>
+        /// test
+        /// </summary>
         [Test]
         public void Add_0_n2_Equal_n2()
         {
@@ -74,6 +93,10 @@ namespace MyMath.Tests
             // Assert
             Assert.AreEqual(-2, result);
         }
+
+        /// <summary>
+        /// test
+        /// </summary>
         [Test]
         public void Add_n5_n2_Equal_n7()
         {
