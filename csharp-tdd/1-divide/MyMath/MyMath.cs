@@ -6,7 +6,7 @@ namespace MyMath
     /// <summary>
     /// Math operations
     /// </summary>
-    public class Operations
+    public class Matrix
     {
         /// <summary>
         /// Divides a matrix by an int.

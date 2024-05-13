@@ -8,7 +8,7 @@ namespace MyMath.Tests
     /// </summary> 
     /// <see cref="https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-nunit"/>>
     [TestFixture]
-    public class OperationsTests
+    public class MatrixTests
     {
         /// <summary>
         /// does nothing.
@@ -31,7 +31,7 @@ namespace MyMath.Tests
              };
             int b = 1;
             // Act
-            int[,] result = Operations.Divide(a, b);
+            int[,] result = Matrix.Divide(a, b);
             // Assert
             Assert.AreEqual(a, result);
         }
@@ -53,7 +53,7 @@ namespace MyMath.Tests
                 { -4 , -5 , -6 ,} ,
              };
             // Act
-            int[,] result = Operations.Divide(a, b);
+            int[,] result = Matrix.Divide(a, b);
             // Assert
             Assert.AreEqual(good, result);
         }
@@ -75,7 +75,7 @@ namespace MyMath.Tests
                 { 0 , 0 , 0 ,} ,
              };
             // Act
-            int[,] result = Operations.Divide(a, b);
+            int[,] result = Matrix.Divide(a, b);
             // Assert
             Assert.AreEqual(good, result);
         }
@@ -97,7 +97,7 @@ namespace MyMath.Tests
                 { 4 , 5 , 6 ,} ,
              };
             // Act
-            int[,] result = Operations.Divide(a, b);
+            int[,] result = Matrix.Divide(a, b);
             // Assert
             Assert.AreEqual(good, result);
         }
@@ -114,7 +114,7 @@ namespace MyMath.Tests
              };
             int b = 0;
             // Act
-            int[,] result = Operations.Divide(a, b);
+            int[,] result = Matrix.Divide(a, b);
             // Assert
             Assert.IsNull(result);
         }
@@ -129,7 +129,7 @@ namespace MyMath.Tests
             int[,] a = null;
             int b = 2;
             // Act
-            int[,] result = Operations.Divide(a, b);
+            int[,] result = Matrix.Divide(a, b);
             // Assert
             Assert.IsNull(result);
         }
