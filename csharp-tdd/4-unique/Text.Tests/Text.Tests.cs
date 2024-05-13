@@ -15,11 +15,12 @@ namespace Text.Tests
         /// <summary>
         /// tests a lot of thing.
         /// </summary>
-        [TestCase("azeertyyy", 2)]
-        [TestCase("azertyyy", 5)]
-        [TestCase("aazertyyy", 0)]
-        [TestCase("azerty", -1)]
-        [TestCase("f", -1)]
+        [TestCase("aazzeertyyy", 6)]
+        [TestCase("aazzzeerrtty", 11)]
+        [TestCase("azertyyy", 0)]
+        [TestCase("aazzeeeerrrtttyy", -1)]
+        [TestCase("f", 0)]
+        [TestCase("fffffff", -1)]
         public void many_tests(string str, int correctIndex)
         {
             // Arrange

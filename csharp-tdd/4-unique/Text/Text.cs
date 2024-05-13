@@ -3,26 +3,39 @@ using System.Collections.Generic;
 
 namespace Text
 {
-
+    /// <summary>
+    /// Manipulates string.
+    /// </summary>
     public class Str
     {
+        /// <summary>
+        /// returns the index of the first non-repeating character of a string.
+        /// </summary>
+        /// <param name="s">string to analyze.</param>
+        /// <returns>index of the 1st non repeating char.</returns>
         public static int UniqueChar(string s)
         {
-            int index = -1;
-            char c = s[0];
-            for (int i = 1; i < s.Length; i++)
+            if (s == null)
             {
-                if (c == s[i])
+                return -1;
+            }
+
+            if (s.Length == 1)
+            {
+                return 0;
+            }
+
+            for (var i = 0; i < s.Length; i++)
+            {
+                // If current character does not appear elsewhere in string
+                if (s.Substring(i + 1).Contains(s[i].ToString()) == false &&
+                    s.Substring(0, i).Contains(s[i].ToString()) == false)
                 {
-                    index = i - 1;
-                    break;
-                }
-                else
-                {
-                    c = s[i];
+                    return i;
                 }
             }
-            return index;
+            return -1;
+
         }
     }
 }
