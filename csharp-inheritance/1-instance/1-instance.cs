@@ -1,12 +1,19 @@
 ﻿using System;
 
-namespace _1_instance
+/// <summary>
+/// Contains methods to test inheritance.
+/// </summary>
+class Obj
 {
-    class Program
+    /// <summary>
+    /// returns True if the object is an instance of, 
+    /// or if the object is an instance of a class that inherited from Array,
+    /// otherwise return False.
+    /// </summary>
+    /// <param name="obj">object to analyze.</param>
+    /// <returns>see summary</returns>
+    public static bool IsInstanceOfArray(object obj)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        return obj is Array;
     }
 }
