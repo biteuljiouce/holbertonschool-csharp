@@ -11,7 +11,7 @@ class Dog : Animal
 /// <summary>
 /// represents an animal.
 /// </summary>
-class Cat : Animal
+class Animal
 {
     // Empty class
 }
