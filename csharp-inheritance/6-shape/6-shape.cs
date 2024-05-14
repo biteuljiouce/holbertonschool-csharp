@@ -6,12 +6,12 @@
 class Shape
 {
     /// <summary>
-    /// Calculates area.
+    /// calculates area.
     /// </summary>
-    /// <returns>area</returns>
+    /// <returns>area as integer</returns>
     public virtual int Area()
     {
-        throw new NotImplementedException("Area is not implemented.");
+        throw new NotImplementedException("Area() is not implemented");
     }
 }
 
