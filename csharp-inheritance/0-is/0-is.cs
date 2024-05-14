@@ -12,6 +12,9 @@ class Obj
     /// <returns>True if integer, False otherwise.</returns>
     public static bool IsOfTypeInt(object obj)
     {
+        Console.WriteLine("obj is int = {}", obj is int);
+        Console.WriteLine("objGetType() = {}", obj.GetType());
+        Console.WriteLine("typeof(obj) = {}", typeof(obj));
         return obj is int;
     }
 }
