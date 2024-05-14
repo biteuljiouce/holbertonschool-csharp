@@ -20,17 +20,6 @@ class Shape
 /// </summary>
 class Rectangle : Shape
 {
-    /*
-    private field: private int width
-    private field: private int height
-    public property: public int Width
-    get: retrieve width
-    set: if value is negative, throw an ArgumentException with the message Width must be greater than or equal to 0. Otherwise, set width to the value.
-    public property: public int Height
-    get: retrieve height
-    set: if value is negative, throw an ArgumentException with the message Height must be greater than or equal to 0. Otherwise, set Height to the value.
-    */
-
     // width of rectangle
     private int width;
     // height of rectangle
