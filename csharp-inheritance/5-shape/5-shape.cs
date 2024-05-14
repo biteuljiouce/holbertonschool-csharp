@@ -11,6 +11,6 @@ class Shape
     /// <returns>area as integer</returns>
     public virtual int Area()
     {
-        throw new NotImplementedException("Area is not implemented");
+        throw new NotImplementedException("Area() is not implemented");
     }
 }
