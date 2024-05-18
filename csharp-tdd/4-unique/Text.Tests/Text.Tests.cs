@@ -21,6 +21,7 @@ namespace Text.Tests
         [TestCase("aazzeeeerrrtttyy", -1)]
         [TestCase("f", 0)]
         [TestCase("fffffff", -1)]
+        [TestCase("", -1)]
         public void many_tests(string str, int correctIndex)
         {
             // Arrange
